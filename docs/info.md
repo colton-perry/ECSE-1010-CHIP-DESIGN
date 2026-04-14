@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+The circuit takes 4 bits A0 A1 B0 and B1 and returns whether or not \[A1:A0\] is greater, equal or less than \[B1:B0\] by lighting one of three LEDs.
 
 ## How to test
 
-Explain how to use your project
+If \[A1:A0\]<\[B1:B0\], then `A<B` LED should turn on, otherwise if \[A1:A0\]>\[B1:B0\], then `A>B` LED should turn on, if they are equal, then `A=B` turns on.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+3 LEDs.
